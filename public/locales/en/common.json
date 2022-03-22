@@ -1,3 +1,7 @@
 {
-  "test": "Testing"
+  "common": {
+    "header": {
+      "home": "Rodolfo Thiede: home"
+    }
+  }
 }

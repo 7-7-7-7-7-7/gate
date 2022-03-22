@@ -1,0 +1,128 @@
+.header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 10em;
+  align-items: center;
+}
+
+.logo {
+  flex-grow: .5;
+
+  background: #9CECFB;
+  background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+  background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-indent: 20px;
+  font-size: 18px;
+}
+
+.nav {
+  flex-grow: 2;
+}
+
+.navigator ul {
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigator ul li {
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  position: relative;
+  color: inherit;
+  z-index: 1;
+  padding: 0.2em 0.7em;
+}
+
+.navBtn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: .65em;
+  bottom: 0.55em;
+  transform: rotateZ(-7deg);
+  z-index: -1;
+  opacity: .3;
+}
+
+.navBtn.home::before {
+  background-color: #ff0000;
+}
+
+.navBtn.about::before {
+  background-color: #00ff00ff;
+}
+
+.navBtn.blog::before {
+  background-color: #8a2be2;
+}
+
+.navBtn.contact::before {
+  background-color: #ffd700;
+}
+
+.navBtn:hover,
+.navBtn.active {
+  border-radius: 9999px;
+  color: #ffffff;
+  opacity: .5;
+}
+
+.navBtn.home:hover,
+.navBtn.home.active {
+  background-color: #ff0000;
+}
+
+.navBtn.about:hover,
+.navBtn.about.active{
+  background-color: #00ff00ff;
+  color: #111111;
+}
+
+.navBtn.blog:hover,
+.navBtn.blog.active {
+  background-color: #8a2be2;
+}
+
+.navBtn.contact:hover,
+.navBtn.contact.active {
+  background-color: #ffd700;
+  color: #111111;
+  opacity: .8;
+}
+
+
+.navBtn:hover::before,
+.navBtn.active::before {
+  background-color: transparent;
+}
+
+@media all and (max-width: 970px) {
+  .header {
+    flex-direction: column;
+    padding: 1em .5em;
+    align-items: initial;
+  }
+
+  .logo {
+    align-self: center;
+    font-size: 22px;
+    margin: .5em 0 1em 0;
+  }
+}

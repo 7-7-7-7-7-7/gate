@@ -1,3 +1,7 @@
 {
-  "test": "Prueba"
+  "common": {
+    "header": {
+      "home": "Rodolfo Thiede: inicio"
+    }
+  }
 }
