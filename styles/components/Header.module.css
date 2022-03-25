@@ -9,7 +9,6 @@
 
 .logo {
   flex-grow: .5;
-
   background: #9CECFB;
   background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
   background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
@@ -115,14 +114,12 @@
 
 @media all and (max-width: 970px) {
   .header {
-    flex-direction: column;
+    flex-direction: row;
     padding: 1em .5em;
-    align-items: initial;
+    align-items: center;
   }
 
   .logo {
-    align-self: center;
-    font-size: 22px;
-    margin: .5em 0 1em 0;
+    display: none;
   }
 }

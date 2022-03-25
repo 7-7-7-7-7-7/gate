@@ -1,0 +1,59 @@
+.footer {
+  padding: 0 10em;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+}
+
+.heart {
+  color: #d53434;
+}
+
+.language {
+  border: 1px #d53434 dashed;
+  padding: 0 0.4em;
+  border-radius: 5px;
+  color: #111111;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.language:hover {
+  background-color: #d53434;
+  color: #ffffff;
+  border: none;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 22px;
+}
+
+.links .gitlab {
+  color: #fc6d27;
+  margin-right: 10px;
+}
+
+.links .github {
+  color: #333;
+  margin-right: 10px;
+}
+
+.links .linkedIn {
+  color: #0e76a8;
+}
+
+@media all and (max-width: 700px) {
+  .footer {
+    padding: 0 2em;
+  }
+}
