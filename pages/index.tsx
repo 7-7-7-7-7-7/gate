@@ -18,8 +18,8 @@ const Home = () => {
           </Head>
           <div className={styles.intro}>
               <h1 className={styles.h1}>
-                  Conoce a tu próximo<br />
-                  <span>desarrollador</span> creativo...
+                  {t('home.meet_your')}<br />
+                  <span>{t('home.one')}</span> {t('home.two')}
               </h1>
           </div>
           <div className={styles.animation}><Link href="/about">➠</Link></div>
@@ -34,7 +34,8 @@ export const getStaticProps: GetStaticProps = async ({ locale } : any) => {
                 locale,
                 [
                     'common',
-                    'navigator'
+                    'navigator',
+                    'home'
                 ]
             ),
         }

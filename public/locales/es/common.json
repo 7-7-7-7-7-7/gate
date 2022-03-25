@@ -3,5 +3,10 @@
     "header": {
       "home": "Rodolfo Thiede: inicio"
     }
+  },
+  "home": {
+    "meet_your": "Conoce a tu próximo",
+    "one": "desarrollador",
+    "two": "creativo..."
   }
 }
