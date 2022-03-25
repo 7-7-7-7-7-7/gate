@@ -1,7 +1,8 @@
 {
   "common": {
     "header": {
-      "home": "Rodolfo Thiede: home"
+      "home": "Rodolfo Thiede: home",
+      "description": "Rodolfo Thiede B: creative developer based in Santiago, Chile."
     }
   },
   "home": {
