@@ -4,3 +4,10 @@
   margin: 0 auto;
   position: relative;
 }
+
+@media all and (max-width: 800px) {
+  .main {
+    width: 100vw;
+    padding: 0 1em;
+  }
+}

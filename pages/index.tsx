@@ -1,21 +1,16 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Header from '../components/header/header'
 import styles from '../styles/Home.module.css'
-import { GetStaticProps } from 'next';
+import { GetStaticProps } from 'next'
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import Link from 'next/link';
+import Link from 'next/link'
 
 
 const Home = () => {
   const { t } = useTranslation('common')
   return (
       <>
-          <Head>
-              <title>{t('common.header.home')}</title>
-              <meta name="description" content="{t('common.header.description')}" />
-              <link rel="icon" href="/favicon.ico" />
-          </Head>
+          <Header title={t('common.navigator.home')} description={t('common.navigator.description')} />
           <div className={styles.intro}>
               <h1 className={styles.h1}>
                   {t('home.meet_your')}<br />

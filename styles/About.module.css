@@ -1,0 +1,82 @@
+.aboutContainer {
+  width: 100%;
+  min-height: calc(100vh - 140px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10em;
+}
+
+.gradient {
+  width: 100vmax;
+  height: 100vh;
+  background: #f7ff00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right top, #db36a4, #f7ff00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right top, #db36a4, #f7ff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: absolute;
+  opacity: .2;
+  z-index: -1;
+}
+
+.boxAbout {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.element {
+  float: left;
+  shape-outside: circle(50%);
+  width: 300px;
+  height: 300px;
+  margin-right: .5em;
+}
+
+.boxAbout:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 999999px;
+  background-image: url("https://thie.dev/assets/img/me-large.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.mobileAbout {
+  display: none;
+}
+
+@media all and (max-width: 1200px) {
+  .aboutContainer {
+    padding: 0 1em;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .aboutContainer {
+    padding: 0 5px;
+    display: none;
+  }
+  .element {
+    display: none;
+  }
+  .photo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1em;
+  }
+  .mobileAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .aboutMobileBox {
+    text-align: justify;
+    font-size: 18px;
+  }
+}

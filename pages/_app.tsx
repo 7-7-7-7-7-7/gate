@@ -2,15 +2,15 @@ import '../styles/globals.css'
 import styles from '../styles/common/Main.module.css'
 import type { AppProps } from 'next/app'
 import { appWithTranslation } from 'next-i18next'
-import Header from '../components/header/header';
-import Footer from '../components/footer/footer';
+import Navigator from '../components/navigator/navigator'
+import Footer from '../components/footer/footer'
 import Script from 'next/script'
 
 
 function MyApp({ Component, pageProps }: AppProps) {
     return (
         <>
-            <Header />
+            <Navigator />
             <main className={styles.main}>
                 <Component {...pageProps} />
             </main>
