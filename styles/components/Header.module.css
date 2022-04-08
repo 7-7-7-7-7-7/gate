@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.logo {
+.logo, .logoMobile {
   flex-grow: .5;
   background: #9CECFB;
   background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
@@ -17,12 +17,15 @@
   -webkit-text-fill-color: transparent;
   font-weight: 900;
   text-transform: uppercase;
-  text-indent: 20px;
   font-size: 18px;
   text-align: center;
 }
 
-.nav {
+.logoMobile {
+  display: none;
+}
+
+.nav, .navTwo {
   flex-grow: 2;
 }
 
@@ -122,5 +125,20 @@
 
   .logo {
     display: none;
+  }
+}
+
+@media all and (max-width: 970px) {
+  .header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1em;
+  }
+  .logoMobile {
+    display: block;
+    grid-column-start: span 3;
+  }
+  .nav {
+    grid-column-start: span 2;
   }
 }

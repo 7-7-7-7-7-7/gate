@@ -8,6 +8,7 @@ const Navigator = () => {
     const { t } = useTranslation('navigator')
     return (
         <header className={styles.header}>
+            <div className={styles.logoMobile}>Rodolfo Thiede B.</div>
             <div className={styles.nav}>
                 <nav className={styles.navigator}>
                     <ul>
@@ -17,7 +18,7 @@ const Navigator = () => {
                 </nav>
             </div>
             <div className={styles.logo}>Rodolfo Thiede B.</div>
-            <div className={styles.nav}>
+            <div className={styles.navTwo}>
                 <nav className={styles.navigator}>
                     <ul>
                         <li className={`${styles.navBtn} ${styles.blog} ${asPath == '/blog' ? styles.active : ''}`}><Link href="/blog">{t('blog')}</Link></li>

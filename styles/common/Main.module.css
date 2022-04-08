@@ -1,13 +1,10 @@
-.main {
-  width: calc(100vw - 21em);
-  min-height: calc(100vh - 140px);
-  margin: 0 auto;
+.layout {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
   position: relative;
 }
-
-@media all and (max-width: 800px) {
-  .main {
-    width: 100vw;
-    padding: 0 1em;
-  }
+.main {
+  width: 100vw;
 }

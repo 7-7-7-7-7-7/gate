@@ -10,11 +10,13 @@ import Script from 'next/script'
 function MyApp({ Component, pageProps }: AppProps) {
     return (
         <>
-            <Navigator />
-            <main className={styles.main}>
-                <Component {...pageProps} />
-            </main>
-            <Footer />
+            <div className={styles.layout}>
+                <Navigator />
+                <main className={styles.main}>
+                    <Component {...pageProps} />
+                </main>
+                <Footer />
+            </div>
             <Script src="https://kit.fontawesome.com/699f63647e.js" crossOrigin="anonymous" />
         </>
     )

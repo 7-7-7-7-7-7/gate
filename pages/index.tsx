@@ -12,12 +12,12 @@ const Home = () => {
       <>
           <Header title={t('common.navigator.home')} description={t('common.navigator.description')} />
           <div className={styles.intro}>
+              <div className={styles.animation}>➠</div>
               <h1 className={styles.h1}>
                   {t('home.meet_your')}<br />
                   <span>{t('home.one')}</span> {t('home.two')}
               </h1>
           </div>
-          <div className={styles.animation}><Link href="/about">➠</Link></div>
       </>
   )
 }

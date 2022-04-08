@@ -10,11 +10,13 @@ body {
   line-height: calc(15px * 1.5);
   letter-spacing: -0.004em;
   font-weight: 400;
-  -webkit-text-size-adjust: 100%;
   font-kerning: normal;
   font-variant-ligatures: contextual common-ligatures;
   font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
   overflow-x: hidden;
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 a {

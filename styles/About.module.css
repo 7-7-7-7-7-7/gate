@@ -1,19 +1,28 @@
+.aboutContainer {
+  padding: 0 10em;
+}
 .aboutBox {
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  font-family: monospace;
 }
 
 .aboutText {
   text-align: justify;
-  padding: .5em 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.aboutText:first-letter {
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
 .aboutText:nth-child(2) {
   display: block;
-  width: 80%;
+  width: 90%;
   margin: 0 auto
 }
 
@@ -32,4 +41,71 @@
   width: 200px;
   height: 200px;
   margin-right: .5em;
+}
+
+.skillsBoxTitle {
+  font-weight: 900;
+  font-size: 32px;
+  height: 50px;
+  text-align: center;
+  margin: 2em 0 0 0;
+}
+
+.skillsBoxContainer {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+}
+
+.skillsCategory {
+  background-image: radial-gradient( circle farthest-corner at 20% 3.1%, rgb(195, 165, 232) 0%, rgb(85, 167, 225) 46%, rgb(0, 255, 113) 100.2% );
+  padding: 1em 2em;
+  margin: 0 0 1em -2em;
+  color: white;
+  border: 2px solid #fff;
+  border-radius: 99999px;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+}
+
+.skillsContainer {
+  display: grid;
+  grid-auto-flow: column;
+  text-align: center;
+  column-gap: 5px;
+}
+
+.skillsTitle {
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.skill {
+  font-size: 13px;
+}
+
+@media all and (max-width: 1200px) {
+  .skillsBoxContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .skillsBoxContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .aboutContainer {
+    padding: 0 1em;
+  }
+  .aboutBox {
+    grid-template-rows: 1fr;
+    row-gap: 5em;
+  }
+  .aboutText:first-child {
+    margin-top: 2em;
+    align-items: start;
+  }
 }

@@ -23,6 +23,7 @@
   cursor: pointer;
   font-size: 13px;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
 .language:hover {
