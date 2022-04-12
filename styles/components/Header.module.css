@@ -72,7 +72,7 @@
   background-color: #00ff00ff;
 }
 
-.navBtn.blog::before {
+.navBtn.projects::before {
   background-color: #8a2be2;
 }
 
@@ -98,8 +98,8 @@
   color: #111111;
 }
 
-.navBtn.blog:hover,
-.navBtn.blog.active {
+.navBtn.projects:hover,
+.navBtn.projects.active {
   background-color: #8a2be2;
 }
 

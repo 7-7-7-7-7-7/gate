@@ -3,6 +3,8 @@ import { GetStaticProps } from 'next'
 import Header from '../components/header/header'
 import { useTranslation } from 'next-i18next'
 import styles from '../styles/About.module.css'
+import { Skills } from '../interfaces/skill'
+import { Experiences } from '../interfaces/experience'
 
 const About = () => {
     const { t } = useTranslation('about')
@@ -20,72 +22,36 @@ const About = () => {
                     </div>
                 </div>
                 <div className={styles.skillsBox}>
-                    <div className={styles.skillsBoxTitle}>Habilidades</div>
+                    <div className={styles.skillsBoxTitle}>{t('skills')}</div>
                     <div className={styles.skillsBoxContainer}>
-                        <div className={styles.skillsCategory}>
-                            <div className={styles.skillsTitle}>Lenguajes de programación</div>
-                            <div className={styles.skillsContainer}>
-                                <div className={styles.skill}>JavaScript</div>
-                                <div className={styles.skill}>Go</div>
-                                <div className={styles.skill}>PHP</div>
-                                <div className={styles.skill}>Java</div>
-                                <div className={styles.skill}>Ruby</div>
-                                <div className={styles.skill}>Swift</div>
-                            </div>
-                        </div>
-                        <div className={styles.skillsCategory}>
-                            <div className={styles.skillsTitle}>Sistemas operativos</div>
-                            <div className={styles.skillsContainer}>
-                                <div className={styles.skill}>WinServer 2012</div>
-                                <div className={styles.skill}>Ubuntu 18.04</div>
-                                <div className={styles.skill}>CentOS</div>
-                            </div>
-                        </div>
-                        <div className={styles.skillsCategory}>
-                            <div className={styles.skillsTitle}>Tecnologías web</div>
-                            <div className={styles.skillsContainer}>
-                                <div className={styles.skill}>React.js</div>
-                                <div className={styles.skill}>Angular</div>
-                                <div className={styles.skill}>CSS</div>
-                                <div className={styles.skill}>HTML 5</div>
-                                <div className={styles.skill}>Rails</div>
-                                <div className={styles.skill}>jQuery</div>
-                            </div>
-                        </div>
-                        <div className={styles.skillsCategory}>
-                            <div className={styles.skillsTitle}>Bases de Datos</div>
-                            <div className={styles.skillsContainer}>
-                                <div className={styles.skill}>MongoDB</div>
-                                <div className={styles.skill}>Postgres</div>
-                                <div className={styles.skill}>MariaDB</div>
-                                <div className={styles.skill}>Cosmos</div>
-                                <div className={styles.skill}>SQL</div>
-                                <div className={styles.skill}>MySQL</div>
-                            </div>
-                        </div>
-                        <div className={styles.skillsCategory}>
-                            <div className={styles.skillsTitle}>Infraestructura <em>cloud</em></div>
-                            <div className={styles.skillsContainer}>
-                                <div className={styles.skill}>Azure</div>
-                                <div className={styles.skill}>Google Cloud</div>
-                                <div className={styles.skill}>DigitalOcean</div>
-                                <div className={styles.skill}>Heroku</div>
-                            </div>
-                        </div>
-
-                        <div className={styles.skillsCategory}>
-                            <div className={styles.skillsTitle}>Otros</div>
-                            <div className={styles.skillsContainer}>
-                                <div className={styles.skill}>Git</div>
-                                <div className={styles.skill}>Docker</div>
-                                <div className={styles.skill}>Kubernetes</div>
-                                <div className={styles.skill}>Kafka</div>
-                                <div className={styles.skill}>REST</div>
-                                <div className={styles.skill}>GraphQL</div>
-                                <div className={styles.skill}>Redux</div>
-                                <div className={styles.skill}>WebExtensions</div>
-                            </div>
-                        </div>
+                        {
+                            Skills.map((skill) => (
+                                <div key={skill.name} className={styles.skillsCategory}>
+                                    <div className={styles.skillsTitle}>{t(skill.name)}</div>
+                                    <div className={styles.skillsContainer}>
+                                        {skill.values.map((value) => (
+                                            <div key={value}  className={styles.skill}>{value}</div>
+                                        ))}
+                                    </div>
+                                </div>
+                            ))
+                        }
+                    </div>
+                </div>
+                <div>
+                    <div className={styles.skillsBoxTitle}>{t('professional_experience')}</div>
+                    <div className={styles.experienceBox}>
+                        {
+                            Experiences.map((experience) => (
+                                <div key={experience.company} className={styles.experience}>
+                                    <div className={styles.companyName}>{experience.company}</div>
+                                    <div className={styles.jobTitle}>{experience.position}</div>
+                                    <div className={styles.jobLogo}></div>
+                                    <div className={styles.jobDescription}>{t(experience.jobDescription)}</div>
+                                    <div className={styles.jobPeriod}>{experience.period}</div>
+                                </div>
+                            ))
+                        }
                     </div>
                 </div>
             </div>

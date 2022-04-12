@@ -5,5 +5,18 @@
   },
   "about_me_one": "Hello! My name is Rodolfo, I'm 26 years old and I live in Santiago, Chile. My professional background is focused on IT, mainly working in areas such as software development and cloud infrastructure management. Usually I try to use the latest technologies offered by the market, and my mission as a professional is to be a constant contribution and provide quality to the projects in which I participate. I am aware that in this profession everything is constantly changing, that's why I like to be constantly learning.",
   "about_me_two": "I consider that I am a person who likes new challenges. Since I was a child I had contact with the world of electronics, having been born in the era where technology was in full growth. I learned to program at the age of 16 out of curiosity and a couple of years later I decided to study and make this my profession.",
-  "about_me_three": "Personally, I find that traditional university education doesn't motivate me as much as learning new things in a self-taught way, and about different topics (not only computer science). Other subjects I am passionate about are drawing, painting, science fiction TV series, reading about science and technology, languages, gastronomy and photography. I also really enjoy music and its different genres. I am not a big sports person, but I do free swimming in the mornings during the week. I have been vegetarian for almost four years now and I am working on going vegan soon. I feel that little by little we are moving forward as humanity towards a world free of animal cruelty."
+  "about_me_three": "Personally, I find that traditional university education doesn't motivate me as much as learning new things in a self-taught way, and about different topics (not only computer science). Other subjects I am passionate about are drawing, painting, science fiction TV series, reading about science and technology, languages, gastronomy and photography. I also really enjoy music and its different genres. I am not a big sports person, but I do free swimming in the mornings during the week. I have been vegetarian for almost four years now and I am working on going vegan soon. I feel that little by little we are moving forward as humanity towards a world free of animal cruelty.",
+  "skills": "Skills",
+  "professional_experience": "Professional experience",
+  "programming_languages": "Programming languages",
+  "operative_systems": "OS",
+  "web_technologies": "Web technologies",
+  "databases": "Databases",
+  "cloud_infrastructure": "infrastructure",
+  "others": "Others",
+  "tcit_desc": "Working for client Walmart Tech, where I am currently supporting different teams with the migration of their applications in Azure infrastructure to a private native platform of the company.",
+  "dataria_desc": "During the early months of the Coronavirus pandemic I worked remotely as a UI developer for an application that handled data from IoT technologies.",
+  "forcast_desc": "I worked as a developer in multiple projects, mainly in the creation of web applications that consumed data from IoT APIs related to the solar energy field and salmon farming companies.",
+  "beltes_desc": "I worked mainly in the development of their web platform and real estate ad publishing systems for the Coquimbo region.",
+  "habtium_desc": "I collaborated in the development and design of the 10th version of the website, also with the development of internal and administrative tools."
 }

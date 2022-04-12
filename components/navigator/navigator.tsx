@@ -21,7 +21,7 @@ const Navigator = () => {
             <div className={styles.navTwo}>
                 <nav className={styles.navigator}>
                     <ul>
-                        <li className={`${styles.navBtn} ${styles.blog} ${asPath == '/blog' ? styles.active : ''}`}><Link href="/blog">{t('blog')}</Link></li>
+                        <li className={`${styles.navBtn} ${styles.projects} ${asPath == '/projects' ? styles.active : ''}`}><Link href="/projects">{t('projects')}</Link></li>
                         <li className={`${styles.navBtn} ${styles.contact} ${asPath == '/contact' ? styles.active : ''}`}><Link href="/contact">{t('contact')}</Link></li>
                     </ul>
                 </nav>
