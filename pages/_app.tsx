@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                 </main>
                 <Footer />
             </div>
-            <Script src="https://kit.fontawesome.com/699f63647e.js" crossOrigin="anonymous" />
+            <Script src="https://kit.fontawesome.com/e203f7df3c.js" crossOrigin="anonymous" />
         </>
     )
 }

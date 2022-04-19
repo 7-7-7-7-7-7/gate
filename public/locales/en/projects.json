@@ -2,5 +2,9 @@
   "header": {
     "title": "Rodolfo Thiede B: projects",
     "description": "Rodolfo Thiede B: creative developer based Santiago, Chile."
-  }
+  },
+  "blog_desc": "RESTful API that centralizes and allows to manage articles in a database.",
+  "pokedex_desc": "Web application that consumes data from an API that contains all the information of all Pokémon.",
+  "calculator_desc": "Calculator that performs basic operations written in pure language.",
+  "cookie_desc": "Extension compatible with modern browsers that allows you to import Cookies."
 }

@@ -10,7 +10,7 @@ const Home = () => {
   const { t } = useTranslation('common')
   return (
       <>
-          <Header title={t('common.navigator.home')} description={t('common.navigator.description')} />
+          <Header title={t('common.header.home')} description={t('common.header.description')} />
           <div className={styles.intro}>
               <div className={styles.animation}>➠</div>
               <h1 className={styles.h1}>
@@ -29,8 +29,7 @@ export const getStaticProps: GetStaticProps = async ({ locale } : any) => {
                 locale,
                 [
                     'common',
-                    'navigator',
-                    'home'
+                    'navigator'
                 ]
             ),
         }
