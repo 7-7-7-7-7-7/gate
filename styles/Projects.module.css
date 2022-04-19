@@ -51,11 +51,16 @@
   font-size: 14px;
 }
 
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .projectTech {
   display: flex;
   float: left;
-  align-items: center;
-  padding-top: .5em;
 }
 
 .projectTech span {
@@ -83,7 +88,7 @@
 
 @media all and (max-width: 900px) {
   .projectBox {
-    padding: 0 5em;
+    padding: 0 1em;
   }
   .projects {
     grid-template-columns: 1fr;

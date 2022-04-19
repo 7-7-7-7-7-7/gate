@@ -14,7 +14,7 @@ export const Skills: Skill[] = [
     },
     {
         name: 'web_technologies',
-        values: ['React.js', 'Angular', 'CSS', 'HTML 5', 'Rails', 'jQuery', 'ES9']
+        values: ['React.js', 'Angular', 'CSS', 'HTML', 'Rails', 'jQuery', 'ES9']
     },
     {
         name: 'databases',

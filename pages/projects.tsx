@@ -20,12 +20,14 @@ const Projects = () => {
                                     <div className={styles.projectName}>{project.name}</div>
                                     <div className={styles.projectIcon}><i className={`fa-solid ${project.icon}`}></i></div>
                                     <div className={styles.projectDescription}>{t(project.description)}</div>
-                                    <div className={styles.projectTech}>
-                                        {
-                                            project.technologies.map((tech) => (<span key={tech}>{tech}</span>))
-                                        }
+                                    <div className={styles.bottom}>
+                                        <div className={styles.projectTech}>
+                                            {
+                                                project.technologies.map((tech) => (<span key={tech}>{tech}</span>))
+                                            }
+                                        </div>
+                                        <div className={styles.projectLink}><a href={project.repoUrl} target="_blank" rel="noreferrer">Repo <i className="fa-solid fa-up-right-from-square"></i></a></div>
                                     </div>
-                                    <div className={styles.projectLink}><a href={project.repoUrl} target="_blank" rel="noreferrer">Repo <i className="fa-solid fa-up-right-from-square"></i></a></div>
                                 </div>
                             ))
                         }

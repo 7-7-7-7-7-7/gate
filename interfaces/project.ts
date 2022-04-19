@@ -25,7 +25,7 @@ export const ProjectsData: Project[] = [
         name: 'Calculator.js',
         icon: 'fa-calculator',
         description: 'calculator_desc',
-        technologies: ['JavaScript', 'CSS 3', 'HTML 5'],
+        technologies: ['JavaScript', 'CSS', 'HTML'],
         repoUrl: 'https://github.com/7-7-7-7-7-7/calculator'
     },
     {
