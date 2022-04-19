@@ -95,7 +95,7 @@
 .navBtn.about:hover,
 .navBtn.about.active{
   background-color: #00ff00ff;
-  color: #111111;
+  color: #000000;
 }
 
 .navBtn.projects:hover,
