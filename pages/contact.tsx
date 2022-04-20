@@ -9,7 +9,7 @@ const Contact = () => {
     const contactMail = 'rodolfo@thie.dev'
     return (
         <>
-            <Header title={t('header.home')} description={t('header.description')} />
+            <Header title={t('header.title')} description={t('header.description')} />
             <div className={styles.intro}>
                 <h1 className={styles.h1}>{t('lets_talk')}</h1>
                 <h2 className={styles.h2}>{t('contact_text')} <span><a href={`mailto:${contactMail}`}>{contactMail}</a></span>.</h2>
