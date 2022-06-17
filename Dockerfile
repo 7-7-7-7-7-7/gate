@@ -8,8 +8,8 @@ WORKDIR /usr/src/app
 COPY package.json /usr/src/app
 COPY yarn.lock /usr/src/app
 
-# Production use node instead of root
 USER node
+
 ENV YARN_CACHE_FOLDER=/dev/shm/yarn_cache
 RUN yarn install --production --frozen-lockfile
 
