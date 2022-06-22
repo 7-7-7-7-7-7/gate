@@ -6,6 +6,7 @@ ENV PORT 3060
 WORKDIR /usr/src/app
 
 COPY package.json /usr/src/app
+
 COPY yarn.lock /usr/src/app
 
 RUN yarn install --production
@@ -15,3 +16,7 @@ COPY . /usr/src/app
 RUN yarn build
 
 CMD [ "yarn", "start" ]
+
+FROM nginx:1.15.8-alpine
+
+COPY --from=builder . /usr/share/nginx/html
