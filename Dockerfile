@@ -10,7 +10,6 @@ COPY package.json /usr/src/app
 COPY yarn.lock /usr/src/app
 
 RUN yarn install --production
-RUN yarn add typescript @types/react @types/node
 
 COPY . /usr/src/app
 
