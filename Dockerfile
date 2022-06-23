@@ -20,4 +20,4 @@ CMD [ "yarn", "start" ]
 
 FROM nginx:1.15.8-alpine
 
-COPY --from=builder . /usr/share/nginx/html
+COPY --from=builder /usr/src/app/.next /usr/share/nginx/html
