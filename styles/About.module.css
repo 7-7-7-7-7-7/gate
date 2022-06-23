@@ -27,19 +27,19 @@
 }
 
 .photo {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 999999px;
-  background-image: url("https://thie.dev/assets/img/me-large.jpeg");
+  background-image: url("../public/img/profile.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center top;
 }
 
 .element {
   float: left;
   shape-outside: circle(50%);
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   margin-right: .5em;
 }
 
