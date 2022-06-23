@@ -17,7 +17,3 @@ COPY . /usr/src/app
 RUN yarn build
 
 CMD [ "yarn", "start" ]
-
-FROM nginx:1.15.8-alpine
-
-COPY --from=builder /usr/src/app/out /usr/share/nginx/html
