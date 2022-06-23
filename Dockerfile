@@ -1,7 +1,6 @@
 FROM node:alpine AS builder
 
 RUN mkdir -p /usr/src/app
-ENV PORT 3060
 
 WORKDIR /usr/src/app
 

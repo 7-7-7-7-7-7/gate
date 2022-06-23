@@ -11,7 +11,7 @@ The process is not automated (yet). So, to run this app in the server, please ex
 $ sudo docker run --detach \
 --name gate \
 --env "VIRTUAL_HOST=thie.dev" \
---env "VIRTUAL_PORT=3060" \
+--env "VIRTUAL_PORT=3000" \
 --env "LETSENCRYPT_HOST=thie.dev" \
 --env "LETSENCRYPT_EMAIL=rodolfo@thie.dev" \
 gate
