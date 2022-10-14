@@ -6,23 +6,23 @@ export type Skill = {
 export const Skills: Skill[] = [
     {
         name: 'programming_languages',
-        values: ['JavaScript', 'Go',' PHP', 'Java', 'Ruby', 'Swift']
+        values: ['JavaScript', 'Go',' PHP']
     },
     {
         name: 'operative_systems',
-        values: ['WinServer 2012', 'Ubuntu 18.04', 'CentOS']
+        values: ['WinServer 2012', 'Ubuntu 18.04']
     },
     {
         name: 'web_technologies',
-        values: ['React.js', 'Angular', 'CSS', 'HTML', 'Rails', 'jQuery', 'ES9']
+        values: ['React.js', 'Angular', 'CSS', 'HTML', 'Rails', 'ES9', 'Next.js']
     },
     {
         name: 'databases',
-        values: ['MongoDB', 'Postgres', 'MariaDB', 'CosmosDB', 'SQL', 'MySQL']
+        values: ['MongoDB', 'Postgres', 'MariaDB', 'MySQL', 'SQL']
     },
     {
         name: 'cloud_infrastructure',
-        values: ['Azure', 'Google Cloud', 'DigitalOcean', 'Heroku']
+        values: ['Azure', 'GCP', 'DigitalOcean', 'Heroku']
     },
     {
         name: 'others',

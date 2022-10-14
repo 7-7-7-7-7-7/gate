@@ -16,7 +16,7 @@ const Footer = () => {
                 className="fa-solid fa-globe"></i> {currentLanguage}</span></Link>
             </div>
             <div className={styles.links}>
-                <a href="https://gitlab.com/ssspells" target="_blank" rel="noreferrer noopener"><i className={`${styles.gitlab} fa-brands fa-gitlab`}></i></a>
+                <a href="https://gitlab.com/7-7-7-7-7-7" target="_blank" rel="noreferrer noopener"><i className={`${styles.gitlab} fa-brands fa-gitlab`}></i></a>
                 <a href="https://github.com/7-7-7-7-7-7" target="_blank" rel="noreferrer noopener"><i className={`${styles.github} fa-brands fa-github`}></i></a>
                 <a href="https://www.linkedin.com/in/rodolfo-thiede/" target="_blank" rel="noreferrer noopener"><i className={`${styles.linkedIn} fa-brands fa-linkedin`}></i></a>
             </div>
