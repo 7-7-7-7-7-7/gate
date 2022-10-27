@@ -6,7 +6,7 @@ export type Skill = {
 export const Skills: Skill[] = [
     {
         name: 'programming_languages',
-        values: ['JavaScript', 'Go',' PHP']
+        values: ['JavaScript', 'Go', 'PHP', 'Ruby']
     },
     {
         name: 'operative_systems',
@@ -14,7 +14,7 @@ export const Skills: Skill[] = [
     },
     {
         name: 'web_technologies',
-        values: ['React.js', 'Angular', 'CSS', 'HTML', 'Rails', 'ES9', 'Next.js']
+        values: ['Node', 'React.js', 'Angular', 'CSS', 'HTML', 'Rails', 'ES9', 'Next.js']
     },
     {
         name: 'databases',
