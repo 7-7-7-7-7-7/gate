@@ -3,7 +3,9 @@
     "title": "Rodolfo Thiede B: proyectos",
     "description": "Rodolfo Thiede B: desarrollador creativo en Santiago, Chile."
   },
-  "blog_desc": "API RESTful que centraliza y permite administrar artículos de texto almacenados en una base de datos.",
+  "shop_desc": "API REST que imita un CRUD de entidades de producto para ser utilizado como e-commerce.",
+  "car_desc": "Backend básico que imita una automotora con sus respectivas entidades.",
+  "blog_desc": "API REST que centraliza y permite administrar artículos de texto almacenados en una base de datos.",
   "pokedex_desc": "Aplicación web que consume datos de una API que contiene toda la información de todos los Pokémon.",
   "calculator_desc": "Calculadora que permite realizar operaciones básicas escrita en lenguaje puro.",
   "cookie_desc": "Extensión compatible con los navegadores modernos que permite importar Cookies."

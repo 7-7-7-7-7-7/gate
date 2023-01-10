@@ -11,7 +11,9 @@ const Home = () => {
       <>
           <Header title={t('common.header.home')} description={t('common.header.description')} />
           <div className={styles.intro}>
-              <div className={styles.animation}>➠</div>
+              <div className={styles.element}>
+                  <div className={styles.photo}></div>
+              </div>
               <h1 className={styles.h1}>
                   {t('home.meet_your')}<br />
                   <span>{t('home.one')}</span> {t('home.two')}

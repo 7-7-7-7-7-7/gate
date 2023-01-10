@@ -1,24 +1,24 @@
 export type Skill = {
     name: string,
-    values: any[]
+    values: string[]
 }
 
 export const Skills: Skill[] = [
     {
         name: 'programming_languages',
-        values: ['JavaScript', 'Go', 'PHP', 'Ruby']
-    },
-    {
-        name: 'operative_systems',
-        values: ['WinServer 2012', 'Ubuntu 18.04']
+        values: ['TypeScript', 'JavaScript', 'Go']
     },
     {
         name: 'web_technologies',
-        values: ['Node', 'React.js', 'Angular', 'CSS', 'HTML', 'Rails', 'ES9', 'Next.js']
+        values: ['Node.js', 'React', 'Angular', 'Next.js', 'NestJS', 'HTML', 'CSS']
+    },
+    {
+        name: 'operative_systems',
+        values: ['Ubuntu 18.04']
     },
     {
         name: 'databases',
-        values: ['MongoDB', 'Postgres', 'MariaDB', 'MySQL', 'SQL']
+        values: ['SQL Server', 'MongoDB', 'Postgres', 'MySQL', 'SQL']
     },
     {
         name: 'cloud_infrastructure',
