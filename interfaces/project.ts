@@ -2,11 +2,25 @@ export type Project = {
     name: string,
     icon: string,
     description: string,
-    technologies: any[],
+    technologies: string[],
     repoUrl: string
 }
 
 export const ProjectsData: Project[] = [
+    {
+        name: 'Basic e-commerce/shop',
+        icon: 'fa-shop',
+        description: 'shop_desc',
+        technologies: ['NestJS', 'Node.js'],
+        repoUrl: 'https://github.com/7-7-7-7-7-7/shop'
+    },
+    {
+        name: 'Car dealership',
+        icon: 'fa-car',
+        description: 'car_desc',
+        technologies: ['NestJS', 'Node.js'],
+        repoUrl: 'https://github.com/7-7-7-7-7-7/nest-car-dealership'
+    },
     {
         name: 'Blog',
         icon: 'fa-book',

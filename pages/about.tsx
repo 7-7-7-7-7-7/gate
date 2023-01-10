@@ -18,7 +18,7 @@ const About = () => {
                         <div className={styles.element}>
                             <div className={styles.photo}></div>
                         </div>
-                        <div>{t('about_me_two')} {t('about_me_three')}</div>
+                        <div style={{paddingTop: '35px'}}>{t('about_me_two')} {t('about_me_three')}</div>
                     </div>
                 </div>
                 <div className={styles.skillsBox}>
