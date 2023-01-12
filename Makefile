@@ -2,7 +2,7 @@ docker-build:
 	sudo docker build --shm-size 1G --no-cache -t gate .
 
 docker-down:
-	sudo docker rm $(sudo docker stop $(sudo docker ps -a -q --filter ancestor=gate --format="{{.ID}}"))
+	sudo docker rm $(sudo docker stop $(sudo docker ps -f name=gate --format="{{.ID}}"))
 
 docker-up:
 	sudo docker run --detach \
