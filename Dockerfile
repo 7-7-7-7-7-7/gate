@@ -1,4 +1,4 @@
-FROM node:alpine AS builder
+FROM node:14.19.0 AS builder
 
 RUN mkdir -p /usr/src/app
 

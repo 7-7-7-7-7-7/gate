@@ -14,9 +14,6 @@ docker-up:
   gate
 
 deploy:
-	docker-build \
-	docker-down	\
-	docker-up
-
+	docker-build docker-down docker-up
 
 .PHONY: docker-build docker-down docker-up deploy
