@@ -20,13 +20,13 @@
   },
   "devDependencies": {
     "@types/node": "17.0.21",
-    "@types/react": "^18.0.4",
+    "@types/react": "^18.2.0",
     "eslint": "8.10.0",
     "eslint-config-next": "^13.4.2",
     "typescript": "4.6.2"
   },
   "resolutions": {
     "@types/node": "17.0.21",
-    "@types/react": "^18.0.4"
+    "@types/react": "^18.2.0"
   }
 }

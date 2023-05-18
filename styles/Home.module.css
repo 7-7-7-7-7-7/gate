@@ -8,13 +8,55 @@
 }
 
 .photo {
+  position: relative;
   width: 300px;
   height: 300px;
-  border-radius: 999999px;
+  transform-style: preserve-3d;
+  animation: rotate3d 8s linear infinite;
+  transition: all .3s;
+}
+
+.photo__front,
+.photo__back {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #E8D0BB;
+}
+
+.photo__front {
   background-image: url("../public/img/me.jpeg");
   background-size: cover;
-  background-position: center top;
+  transform: translateZ(10px);
 }
+
+.photo__back {
+  background-image: url("../public/img/me.jpeg");
+  background-size: cover;
+  transform: translateZ(-10px) rotateY(180deg);
+}
+
+@keyframes rotate3d {
+  0% {
+    transform: perspective(1000px) rotateY(0deg);
+  }
+
+  100% {
+    transform: perspective(1000px) rotateY(360deg);
+  }
+}
+
+@keyframes shine {
+  0%, 15% {
+    transform: translateY(600px) rotate(-40deg);
+  }
+  50% {
+    transform: translateY(-300px) rotate(-40deg);
+  }
+}
+
 
 .element {
   float: left;
