@@ -3,6 +3,7 @@
     "title": "Rodolfo Thiede B: proyectos",
     "description": "Rodolfo Thiede B: desarrollador creativo en Santiago, Chile."
   },
+  "gate_desc": "Gate es la puerta. Básicamente esta aplicación. Mi portafolio personal.",
   "shop_desc": "API REST que imita un CRUD de entidades de producto para ser utilizado como e-commerce.",
   "car_desc": "Backend básico que imita una automotora con sus respectivas entidades.",
   "blog_desc": "API REST que centraliza y permite administrar artículos de texto almacenados en una base de datos.",

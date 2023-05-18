@@ -2,12 +2,11 @@
   "common": {
     "header": {
       "home": "Rodolfo Thiede: home",
-      "description": "Rodolfo Thiede B: creative developer based in Santiago, Chile."
+      "description": "Rodolfo Thiede B: full-stack developer based in Santiago, Chile."
     }
   },
   "home": {
     "meet_your": "Meet your next",
-    "one": "creative",
-    "two": "developer..."
+    "one": "developer"
   }
 }

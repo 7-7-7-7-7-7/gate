@@ -8,9 +8,9 @@ export type Experience = {
 export const Experiences: Experience[] = [
     {
         company: 'SR Consultores',
-        position: 'Full-stack developer',
+        position: 'Full-stack Node developer',
         jobDescription: 'sr_desc',
-        period: 'nov. 2022 - act.',
+        period: 'nov. 2022 - jun. 2023',
     },
     {
         company: 'TCIT',

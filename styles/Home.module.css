@@ -33,9 +33,9 @@
 }
 
 .h1 span {
-  background: #56ab2f;
-  background: -webkit-linear-gradient(to left, #a8e063, #56ab2f);
-  background: linear-gradient(to left, #a8e063, #56ab2f);
+  background: #0052D4;
+  background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
+  background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

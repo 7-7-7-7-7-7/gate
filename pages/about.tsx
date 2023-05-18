@@ -5,21 +5,23 @@ import { useTranslation } from 'next-i18next'
 import styles from '../styles/About.module.css'
 import { Skills } from '../interfaces/skill'
 import { Experiences } from '../interfaces/experience'
+import { yearsOld } from '../utils';
 
 const About = () => {
-    const { t } = useTranslation('about')
+    const { t } = useTranslation('about');
     return (
         <>
             <Header title={t('header.title')} description={t('header.description')} />
             <div className={styles.aboutContainer}>
                 <div className={styles.aboutBox}>
-                    <div className={styles.aboutText}>{t('about_me_one')}</div>
+                    <div className={styles.aboutText}>{t('about_me_one', {yearsOld: yearsOld()})}</div>
                     <div className={styles.aboutText}>
                         <div className={styles.element}>
                             <div className={styles.photo}></div>
                         </div>
-                        <div style={{paddingTop: '35px'}}>{t('about_me_two')} {t('about_me_three')}</div>
+                        <div style={{paddingTop: '35px'}}>{t('about_me_two')}</div>
                     </div>
+                    <div style={{paddingTop: '50px'}} className={styles.aboutText}>{t('about_me_three')}</div>
                 </div>
                 <div className={styles.skillsBox}>
                     <div className={styles.skillsBoxTitle}>{t('skills')}</div>

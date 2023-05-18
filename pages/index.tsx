@@ -16,7 +16,7 @@ const Home = () => {
               </div>
               <h1 className={styles.h1}>
                   {t('home.meet_your')}<br />
-                  <span>{t('home.one')}</span> {t('home.two')}
+                  <span>{t('home.one')}</span>...
               </h1>
           </div>
       </>

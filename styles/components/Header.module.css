@@ -9,9 +9,9 @@
 
 .logo, .logoMobile {
   flex-grow: .5;
-  background: #9CECFB;
-  background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
-  background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+  background: #0052D4;
+  background: -webkit-linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
+  background: linear-gradient(to right, #6FB1FC, #4364F7, #0052D4);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

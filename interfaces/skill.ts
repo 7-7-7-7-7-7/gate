@@ -10,22 +10,22 @@ export const Skills: Skill[] = [
     },
     {
         name: 'web_technologies',
-        values: ['Node.js', 'React', 'Angular', 'Next.js', 'NestJS', 'HTML', 'CSS']
+        values: ['Node.js', 'Nest.js', 'React', 'Next.js', 'Angular', 'HTML', 'CSS']
     },
     {
         name: 'operative_systems',
-        values: ['Ubuntu 18.04']
+        values: ['Linux']
     },
     {
         name: 'databases',
-        values: ['SQL Server', 'MongoDB', 'Postgres', 'MySQL', 'SQL']
+        values: ['SQL Server', 'MongoDB', 'Postgres', 'MySQL']
     },
     {
         name: 'cloud_infrastructure',
-        values: ['Azure', 'GCP', 'DigitalOcean', 'Heroku']
+        values: ['Azure', 'DigitalOcean', 'Heroku']
     },
     {
         name: 'others',
-        values: ['Git', 'Docker', 'Kubernetes', 'Kafka', 'REST', 'GraphQL', 'Redux', 'WebExtensions']
+        values: ['Git', 'Docker', 'Kubernetes', 'Kafka', 'REST', 'WebExtensions', 'Jest']
     }
 ]

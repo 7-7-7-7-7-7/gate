@@ -3,6 +3,7 @@
     "title": "Rodolfo Thiede B: projects",
     "description": "Rodolfo Thiede B: creative developer based Santiago, Chile."
   },
+  "gate_desc": "Gate is this entire application, basically.",
   "shop_desc": "RESTful API that serves content for a e-commerce with basic product CRUD.",
   "car_desc": "Backend maded for testing purposes that emules a car dealership.",
   "blog_desc": "RESTful API that centralizes and allows to manage articles in a database.",

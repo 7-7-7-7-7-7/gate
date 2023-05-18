@@ -25,6 +25,10 @@
   background-color: #dec1f8;
 }
 
+.project:last-child {
+  grid-column: span 2;
+}
+
 .projectName {
   font-size: 20px;
   font-weight: 700;
@@ -91,6 +95,9 @@
     padding: 0 1em;
   }
   .projects {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+  }
+  .project:last-child {
+    grid-column: span 1;
   }
 }

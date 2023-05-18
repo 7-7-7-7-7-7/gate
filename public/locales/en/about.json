@@ -1,23 +1,23 @@
 {
   "header": {
     "title": "Rodolfo Thiede B: about",
-    "description": "Rodolfo Thiede B: creative developer based in Santiago, Chile."
+    "description": "Rodolfo Thiede B: developer based in Santiago, Chile."
   },
-  "about_me_one": "Hello! My name is Rodolfo, I'm 26 years old and I live in Santiago, Chile. My professional background is focused on IT, mainly working in areas such as software development and cloud infrastructure management. Usually I try to use the latest technologies offered by the market, and my mission as a professional is to be a constant contribution and provide quality to the projects in which I participate. I am aware that in this profession everything is constantly changing, that's why I like to be constantly learning.",
-  "about_me_two": "I consider that I am a person who likes new challenges. Since I was a child I had contact with the world of electronics, having been born in the era where technology was in full growth. I learned to program at the age of 16 out of curiosity and a couple of years later I decided to study and make this my profession.",
-  "about_me_three": "Personally, I find that traditional university education doesn't motivate me as much as learning new things in a self-taught way, and about different topics (not only computer science). Other subjects I am passionate about are drawing, painting, science fiction TV series, reading about science and technology, languages, gastronomy and photography. I also really enjoy music and its different genres. I am not a big sports person, but I do free swimming in the mornings during the week. I have been vegetarian for almost four years now and I am working on going vegan soon. I feel that little by little we are moving forward as humanity towards a world free of animal cruelty.",
-  "skills": "Skills",
+  "about_me_one": "Hey! My name is Rodolfo, I’m {{yearsOld}} years old and I’m based in Santiago, Chile. I’m a software developer as a profession, with more of four years of experience in the technology field. During all this time, I’ve worked in both small and big companies. My professional interest centers in the development of micro-services, and a little bit of font-end using JavaScript technologies such as Node.js. During all these years, I’ve done a little bit of everything, and I try to use the latest technologies that are available. Personally, my mission as a professional is to be a constant contributor and give quality to the projects that I’m involved to, being aware that in this field, everything is constantly changing and improving. I like to learn (a lot), new things, and take on new challenges, but always looking for stability and balance.",
+  "about_me_two": "Since I was a child I had contact with the world of electronics, having been born in an era where technology was in full growth and massification. I learn to code at the age of 16, thanks to a video game and having developed both back and front, I discovered that I could turn this into my profession. I have always been characterized by being self-taught in different topics (not only computer science). In my free time, I usually go to to the gym, I like to cook, learn new recipes (as long as there is time hehe…). Watch sci-fi series, reading about tech, gadgets, science and mental health topics. I like to learn new languages too, and I’m interest in photography. Also, to travel and getting to know other cultures. As for musical tastes, I usually listen to everything. My favorite sport: swimming/diving.",
+  "about_me_three": "Now, having told you a little about my personal life, now let’s move on to the knowledge I use in my work. As time goes by, I add things and sometimes i removed them, since the industry is moving forward and you can’t be expert in everything, as it keeps changing and what you know my not be so useful anymore… however, I try to be honest. Below I tell you about my work experiences and what I was able to accomplish during these periods. Thanks for reading!",
+  "skills": "Technology domain",
   "professional_experience": "Professional experience",
   "programming_languages": "Programming languages",
   "operative_systems": "OS",
-  "web_technologies": "Technology domain",
+  "web_technologies": "Libraries / Frameworks",
   "databases": "Databases",
   "cloud_infrastructure": "infrastructure",
   "others": "Others",
-  "sr_desc": "Currently at Walmart Tech working on product development within the Marketplace initiative in charge of collection.",
-  "tcit_desc": "Working for client Walmart Tech, where I was supporting different teams with the migration of their applications in Azure infrastructure to a private native platform of the company.",
-  "dataria_desc": "During the early months of the Coronavirus pandemic I worked remotely as a UI developer for an application that handled data from IoT technologies.",
-  "forcast_desc": "I worked as a developer in multiple projects, mainly in the creation of web applications that consumed data from IoT APIs related to the solar energy field and salmon farming companies.",
+  "sr_desc": "Providing services to Walmart Chile, participating in the development of back-end microservices using Nest.js connected to Kafka, in which transactions from Lider.cl Marketplace were recorded. We also implemented the complete observability and monitoring system using Prometheus and Grafana for visualization.",
+  "tcit_desc": "I provided services to Walmart Chile, within the initiative of migrating ecosystems in Azure to private Cloud of the global company. During this period two ecosystems were migrated (VeV platform in Node.js, 3P product catalog, with a total of 12 micro-services written in Golang). Implementation of observability and monitoring using Prometheus and Grafana.",
+  "dataria_desc": "During the first months of the pandemic I was working remotely as a developer of a React.js platform, which presented geographic data, fluviometry and pluviometry of certain regions of the country collecting information from IoT servers. Back-end based on Node using Express.js, which extracted data from an ETL.",
+  "forcast_desc": "I worked as a developer of a web platform using the Angular v8 framework, which aimed to organize and enable the visualization of energy and power generated by solar panels. I was also involved in the creation of a Node.js API using Sequelize ORM, which received data from a salmon farm.",
   "beltes_desc": "I worked mainly in the development of their web platform and real estate ad publishing systems for the Coquimbo region.",
   "habtium_desc": "I collaborated in the development and design of the 10th version of the website, also with the development of internal and administrative tools."
 }

@@ -8,6 +8,13 @@ export type Project = {
 
 export const ProjectsData: Project[] = [
     {
+        name: 'Gate',
+        icon: 'fa-dungeon',
+        description: 'gate_desc',
+        technologies: ['Next.js', 'React.js', 'Node.js'],
+        repoUrl: 'https://github.com/7-7-7-7-7-7/gate'
+    },
+    {
         name: 'Basic e-commerce/shop',
         icon: 'fa-shop',
         description: 'shop_desc',
