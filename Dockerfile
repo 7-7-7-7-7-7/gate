@@ -1,4 +1,4 @@
-FROM node:14.19.0 AS builder
+FROM node:16.8.0 AS builder
 
 RUN mkdir -p /usr/src/app
 
