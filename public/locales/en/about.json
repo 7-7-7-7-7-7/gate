@@ -14,6 +14,8 @@
   "databases": "Databases",
   "cloud_infrastructure": "infrastructure",
   "others": "Others",
+  "cocacola_desc": "Currently working in the digital transformation cell of the technology division.",
+  "walmart_desc": "I worked on the migration of e-commerce ecosystems from Azure cloud to the company's private infrastructure, managing to implement the execution of automated tests, security updates and observability of VeV Portal and master catalog. Additionally, I worked as a developer in the Marketplace area, specifically in the collection area, generating daily sales report automation, in addition to fully implementing observability and best practices for Kafka.",
   "sr_desc": "Providing services to Walmart Chile, participating in the development of back-end microservices using Nest.js connected to Kafka, in which transactions from Lider.cl Marketplace were recorded. We also implemented the complete observability and monitoring system using Prometheus and Grafana for visualization.",
   "tcit_desc": "I provided services to Walmart Chile, within the initiative of migrating ecosystems in Azure to private Cloud of the global company. During this period two ecosystems were migrated (VeV platform in Node.js, 3P product catalog, with a total of 12 micro-services written in Golang). Implementation of observability and monitoring using Prometheus and Grafana.",
   "dataria_desc": "During the first months of the pandemic I was working remotely as a developer of a React.js platform, which presented geographic data, fluviometry and pluviometry of certain regions of the country collecting information from IoT servers. Back-end based on Node using Express.js, which extracted data from an ETL.",

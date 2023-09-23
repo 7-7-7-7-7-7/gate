@@ -99,11 +99,11 @@
 }
 
 .experience:first-child {
-  background-color: #0c2952;
+  background-color: #e41e1d;
 }
 
 .experience:nth-child(2) {
-  background-color: #4db6AC;
+  background-color: #0071ce;
 }
 
 .experience:nth-child(3) {
@@ -179,12 +179,12 @@
 }
 
 .experience:first-child .jobLogo {
-  background-image: url('../public/img/sr.png');
-  background-size: 110%;
+  background-image: url('../public/img/cocacola.svg');
 }
 
 .experience:nth-child(2) .jobLogo {
-  background-image: url('../public/img/tcit.png');
+  background-image: url('../public/img/walmart.png');
+  background-size: 70%;
 }
 
 .experience:nth-child(3) .jobLogo {

@@ -7,16 +7,16 @@ export type Experience = {
 
 export const Experiences: Experience[] = [
     {
-        company: 'SR Consultores',
-        position: 'Full-stack Node developer',
-        jobDescription: 'sr_desc',
-        period: 'nov. 2022 - jun. 2023',
+        company: 'Coca-Cola Andina',
+        position: 'Full-stack engineer',
+        jobDescription: 'cocacola_desc',
+        period: 'jun. 2023 - actualidad',
     },
     {
-        company: 'TCIT',
+        company: 'Walmart Chile',
         position: 'Cloud Engineer',
-        jobDescription: 'tcit_desc',
-        period: 'dic. 2020 - nov. 2022'
+        jobDescription: 'walmart_desc',
+        period: 'dic. 2020 - may. 2023'
     },
     {
         company: 'Dataria SpA',
